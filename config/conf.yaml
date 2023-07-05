@@ -1,0 +1,17 @@
+log:
+  - Test:
+    logger_name: Test
+    log_path: /Users/wangluyu/OneDrive - 北京小熊博望科技有限公司/workspace/project/practice-GO/tmp/tmp.log
+    max_size: 500
+    max_backups: 3
+    max_age: 3
+    level: "debug"
+    stdout: false
+  - Test2:
+    logger_name: Test2
+    log_path: /Users/wangluyu/OneDrive - 北京小熊博望科技有限公司/workspace/project/practice-GO/tmp/tmp2.log
+    max_size: 500
+    max_backups: 3
+    max_age: 3
+    level: "debug"
+    stdout: false
